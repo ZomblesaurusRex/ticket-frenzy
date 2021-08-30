@@ -130,7 +130,7 @@ function display(events, type) {
   $('#search-link').click(function(e) {
      e.preventDefault(); setTimeout(function(url) {
         window.location = url 
-      }, 3000, this.href); 
+      }, 5000, this.href); 
     });
 
 });
