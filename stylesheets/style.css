@@ -135,7 +135,6 @@ text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
 }
 #search-link:hover{
     color: #ebebeb;
-    box-shadow: 2px 2px 4px #ffffff83;
     text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
     text-decoration: none;
 
