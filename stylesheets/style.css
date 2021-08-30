@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+    
+  }
 body{
     background-color: #000000;
     font-family: 'Raleway', sans-serif;
@@ -26,6 +30,16 @@ body{
     background-position: bottom;
     background-repeat: no-repeat;
     opacity: 15%;
+
+}
+#search-link{
+    color: #ebebeb;
+    text-decoration: none;
+
+}
+#search-link:hover{
+    color: #ebebeb;
+    text-decoration: none;
 
 }
 #search-term{
@@ -265,7 +279,7 @@ margin-bottom: 10px;
     transition-delay: 0s;
 }
 .card-title{
-    margin-top: 10px;
+    margin-top: 30px;
     color: #ebebeb;
     text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
     font-family: 'Lobster', cursive;

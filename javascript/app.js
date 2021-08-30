@@ -127,4 +127,10 @@ function display(events, type) {
     sticktothetop();
   });
 
+  $('#search-link').click(function(e) {
+     e.preventDefault(); setTimeout(function(url) {
+        window.location = url 
+      }, 3000, this.href); 
+    });
+
 });
