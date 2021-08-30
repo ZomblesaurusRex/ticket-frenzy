@@ -7,22 +7,25 @@ body{
 .jumbotron{
     color: #ebebeb;
     width: 100%;
+    height: 820px;
+    align-content: center;
     padding-top: 10px;
     padding-left: 10%;
     padding-right: 10%;
     padding-bottom: 10px;
     background: none;
-    margin-top: 80px;
+    margin: auto;
+    /* margin-top: 90px; */
     margin-bottom: 0px;
     border-bottom: solid;
     border-radius: 0;
+    border-bottom-color: #343a40;
     text-align: center;
     align-content: center;
-    margin-right: 0;
-    margin-left: 0;
     background-image: url('../images/crowd.jpg');
     background-position: bottom;
     background-repeat: no-repeat;
+    opacity: 15%;
 
 }
 #search-term{
@@ -33,30 +36,28 @@ body{
 }
 #search-input{
     margin-top: 5px;
+    box-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
 }
 .block {
     display: block;
-    position: fixed;
     top: 0;
-    height: 90px;
-    margin-left: 0px;
+    height: 70px;
+    margin: auto;
     width: 100%;
     background-color: #343a40;
     margin-top: 0;
+    padding-bottom: 5px; 
     z-index: -1;
-    float: left;
 }
 #title1{
 font-family: 'Lobster', cursive;
-font-size: 60px;
+font-size: 55px;
 color: white;
-padding-left: 5%;
-/* text-shadow:
--1px -1px 0 white,
-1px -1px 0 white,
--1px 1px 0 white,
-1px 1px 0 white; */
+text-align: center;
+text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
+
 }
+
 hr{
     color: #ebebeb;
     padding: 1px;
@@ -70,9 +71,13 @@ hr{
 }
 
 #title{
-font-size: 50px;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+font-size: 40px;
+font-weight: bold;
 color: #ffffff;
-text-shadow: 2px 2px 4px #939597;
+text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
+margin-top: 250px ;
+margin-bottom: 0px; 
 /* 
 text-shadow:
 -1px -1px 0 white,
@@ -81,6 +86,7 @@ text-shadow:
 1px 1px 0 white; */
 }
 #directions{
+font-family: 'Yanone Kaffeesatz', sans-serif;
 font-size: 20px;
 padding-bottom: 0px;
 padding-top: 0px;
@@ -89,7 +95,17 @@ padding-right: 10%;
 text-align: center;
 margin-top: 5px;
 margin-bottom: 0px;
+text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
 }
+#search-btn{
+    font-family: 'Lobster', cursive;
+    color: #fff;
+    text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
+    background-color: #1b1b3b;
+    border-color: #000;
+    box-shadow: 0 0 3px #000000, 2px 2px 4px #fff;
+}
+
 #results-section{
     margin: auto;
     padding: 10px;
@@ -97,9 +113,11 @@ margin-bottom: 0px;
 }
 
 .links{
-    background-color: rgb(27, 27, 59);
-    margin: 0;
-    padding: 20px;
+    background-color: #343a40;
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    padding-bottom: 14px;
     position: sticky;
     text-align: center;
     align-content: center;
@@ -111,21 +129,25 @@ margin-bottom: 0px;
     z-index: 9999;
 }
 .sport-link{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     margin: 10px;
     padding: 10px;
-    border-radius: 10px;
-    background-color: #939597;
+    border-radius: 5px;
+    background-color: #3b3b80;
     color: #ebebeb;
     box-shadow: 2px 2px 4px #000000;
+    text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
 
 }
 .music-link{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     margin: 10px;
     padding: 10px;
-    border-radius: 10px;
-    background-color: #939597;
+    border-radius: 5px;
+    background-color: #3b3b80;
     color: #ebebeb;
     box-shadow: 2px 2px 4px #000000;
+    text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
 
 }
 #music-results{
