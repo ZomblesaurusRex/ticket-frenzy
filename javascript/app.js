@@ -79,13 +79,13 @@ function display(events, type) {
   var eventImage = $("<img class='card-img-top '>");
   eventImage.attr("src", events.imageURL);
   eventImage.attr("alt", "image text");
-  var eventName = $("<li class='list-group-item li-card'>");
+  var eventName = $("<li class=' li-card' id= 'lineItem'>");
   eventName.text(events.name);
-  var eventDate = $("<li class='list-group-item li-card'>");
+  var eventDate = $("<li class=' li-card' id= 'lineItem'>");
   eventDate.text(events.date);
-  var eventTime = $("<li class='list-group-item li-card'>");
+  var eventTime = $("<li class=' li-card' id= 'lineItem'>");
   eventTime.text(events.time);
-  var eventVenue = $("<li class='list-group-item li-card'>");
+  var eventVenue = $("<li class=' li-card' id = 'lastLineItem'>");
   eventVenue.text(events.venue);
 
   // NEEDS TO BE CHANGED TO A CLICKABLE LINK

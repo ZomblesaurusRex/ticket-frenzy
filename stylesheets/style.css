@@ -108,7 +108,6 @@ text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
 
 #results-section{
     margin: auto;
-    padding: 10px;
     
 }
 
@@ -137,13 +136,19 @@ text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
     color: #ebebeb;
     box-shadow: 2px 2px 4px #000000;
     text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
+    transition-property:  box-shadow;
+    transition-duration: .35s;
+    transition-delay: 0s;
 
 }
 .sport-link:hover{
     color: #ebebeb;
-    box-shadow: 2px 2px 4px #fff;
+    box-shadow: 2px 2px 4px #ffffff83;
     text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
     text-decoration: none;
+    transition-property:  box-shadow;
+    transition-duration: .35s;
+    transition-delay: 0s;
 
 }
 .music-link{
@@ -155,13 +160,19 @@ text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
     color: #ebebeb;
     box-shadow: 2px 2px 4px #000000;
     text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
+    transition-property:  box-shadow;
+    transition-duration: .35s;
+    transition-delay: 0s;
 
 }
 .music-link:hover{
     color: #ebebeb;
-    box-shadow: 2px 2px 4px #fff;
+    box-shadow: 2px 2px 4px #ffffff83;
     text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
     text-decoration: none;
+    transition-property:  box-shadow;
+    transition-duration: .35s;
+    transition-delay: 0s;
 }
 #music-results{
     background-color: rgba(178, 178, 179, 0.164);
@@ -175,10 +186,25 @@ text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
 .link-result{
     margin: 10px;
     padding: 10px;
-    border-radius: 10px;
-    background-color: #3d475a;
+    border-radius: 5px;
+    border-style: inset;
+    border-color: rgba(0, 0, 0, 0.425);
+    background-color: #000000b9;
+    font-family: 'Lobster', cursive;
+    text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
+    box-shadow: 2px 2px 4px #000000;
+    color: #fff;
+    
 }
-.link-result.hover{
+.link-result:hover{
+    box-shadow: 2px 2px 4px #36357483;
+    text-shadow: 0 0 3px #3407fa, 0 0 6px #0000FF;
+    text-decoration: none;
+    color: #fff;
+    transition-property:  box-shadow;
+    transition-duration: .35s;
+    transition-delay: 0s;
+
 
 }
 ul{
@@ -193,26 +219,33 @@ form{
     line-height: 1.2px;
     font-family: 'Lato', sans-serif;
 }
-placeholder{
-    text-align: center;
-
+#lineItem{
+    padding: none;
+    margin: none;
+    
+    }
+#lastLineItem{
+    
+margin-bottom: 10px;
+          
 }
 .card{
     display: inline-block;
     margin: 10px;
     text-align: center;
     align-content: center;
-    border: solid;
-    border-radius: 10px;
-    border-block-color: #ebebeb;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
     color: #ebebeb;
     box-shadow: 2px 2px 4px #000000;
     background-color: #505052;
+    border-radius: 0;
     
 }
+
+
 .list-group-item{
     border: none;
+
     
 }
 .li-card-last{
@@ -234,6 +267,10 @@ placeholder{
 
 
 }
+
+    
+
+
 #reset-btn{
     margin: 10px;
 
