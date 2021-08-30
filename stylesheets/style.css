@@ -139,6 +139,13 @@ text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
     text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
 
 }
+.sport-link:hover{
+    color: #ebebeb;
+    box-shadow: 2px 2px 4px #fff;
+    text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
+    text-decoration: none;
+
+}
 .music-link{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     margin: 10px;
@@ -149,6 +156,12 @@ text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
     box-shadow: 2px 2px 4px #000000;
     text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
 
+}
+.music-link:hover{
+    color: #ebebeb;
+    box-shadow: 2px 2px 4px #fff;
+    text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
+    text-decoration: none;
 }
 #music-results{
     background-color: rgba(178, 178, 179, 0.164);
