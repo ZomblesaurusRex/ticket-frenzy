@@ -32,16 +32,7 @@ body{
     opacity: 15%;
 
 }
-#search-link{
-    color: #ebebeb;
-    text-decoration: none;
 
-}
-#search-link:hover{
-    color: #ebebeb;
-    text-decoration: none;
-
-}
 #search-term{
     width: 50%;
     margin-top: 20px;
@@ -135,7 +126,20 @@ text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
     top: 0;
     z-index: 9999;
 }
+#search-link{
+    font-family: 'Lobster', cursive;
+    color: #ebebeb;
+    text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
+    background-color: #3b3b80;
 
+}
+#search-link:hover{
+    color: #ebebeb;
+    box-shadow: 2px 2px 4px #ffffff83;
+    text-shadow: 0 0 3px #000000, 0 0 6px #0000FF;
+    text-decoration: none;
+
+}
 #search-btn{
     font-family: 'Lobster', cursive;
     color: #ebebeb;
